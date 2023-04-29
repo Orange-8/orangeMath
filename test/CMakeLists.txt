@@ -12,7 +12,7 @@ add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../src ${CMAKE_CURRENT_SOURCE_DIR}/
 
 link_directories(${CMAKE_CURRENT_SOURCE_DIR}/../lib)
 
-list(APPEND EXTRA_LIBS)
+list(APPEND EXTRA_LIBS Math)
 
 set(SRC_LIST main.cpp)
 

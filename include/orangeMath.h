@@ -6,7 +6,7 @@ extern "C"{
 #endif //__cplusplus
 
 
-
+float _log(float X);
 
 
 
