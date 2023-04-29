@@ -5,8 +5,8 @@
 extern "C"{
 #endif //__cplusplus
 
-
-float _log(float X);
+float _exp(float x);
+float _log(float x);
 
 
 
