@@ -4,12 +4,14 @@
 #include <cmath>
 #include "orangeMath.h"
 
+#define ACCURACY 0.000001
+
 void checkFloat(float mine,float cmath)
 {
     float error = (mine-cmath)/cmath;
     if (error<0)error=-error;
     
-    if (error>0.000001)std::cout<<"\033[0;31m";
+    if (error>ACCURACY)std::cout<<"\033[0;31m";
     else std::cout<<"\033[0;32m";
     
     std::cout<<std::setprecision(12)<<std::showpos
