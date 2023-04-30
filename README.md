@@ -36,8 +36,17 @@ float32
 
 $$
 sin(x)=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\cdots+(-1)^n\frac{x^{2n+1}}{(2n+1)!}+o(x^{2n+1})\\
+$$
+
+$$
 cos(x)=sin(x+\frac{\pi}{2})\\
-tan(x)=\frac{sin(x)}{cos(x)}\\\\
+$$
+
+$$
+tan(x)=\frac{sin(x)}{cos(x)}\\
+$$
+
+$$
 asin(x)=x+\frac{x^3}{6}+\frac{3x^5}{40}+\frac{5x^7}{112}+\frac{35x^9}{1152}+o(x^9)
 $$
 
@@ -46,16 +55,23 @@ $$
 
 $$
 exp(x)=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots+\frac{x^n}{n!}+o(x^n)\\
+$$
+
+$$
 log(x)=(x-1)-\frac{(x-1)^2}{2}+\frac{(x-1)^3}{3}-\cdots+(-1)^{n-1}\frac{(x-1)^n}{n}+o(x^n)\\
+$$
+
+$$
 log10(x)=\frac{log(x)}{log(10)}\\
+$$
+
+$$
 pow(x,y)=exp(log(x)*y)\\
+$$
+
+$$
 sqrt(x)=pow(x,\frac12)
 $$
 
 
 3. Hyperbolic functions
-
-$$
-
-
-$$
