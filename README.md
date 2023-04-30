@@ -1,11 +1,11 @@
 ## A simple pratice of math library
 
-### Accuracy to 6 significant figures(float32)
+### Accuracy to 6 significant figures(float32)|目标精度6位有效数字
 
 
-### Function prototype
+### Function prototype|函数原型
 
-1. Trigonometric functions
+1. Trigonometric functions|三角函数
 
 * [ ] sin(x): calculates the sine of x.
 * [ ] cos(x): calculates the cosine of x.
@@ -14,7 +14,7 @@
 * [ ] acos(x): calculates the arc cosine (inverse cosine) of x.
 * [ ] atan(x): calculates the arc tangent(inverse tangent) of x.
 
-2. Exponential and logarithmic functions
+2. Exponential and logarithmic functions|指数与对数函数
 
 * [ ] exp(x): calculates the value of e raised to the power of x.
 * [ ] log(x): calculates the natural logarithm (base e) of x.
@@ -22,14 +22,14 @@
 * [ ] pow(x, y): calculates x raised to the power of y.
 * [ ] sqrt(x): calculates the square root of x.
 
-3. Hyperbolic functions
+3. Hyperbolic functions|双曲函数
 
 * [ ] sinh(x): calculates the hyperbolic sine of x.
 * [ ] cosh(x): calculates the hyperbolic cosine of x.
 * [ ] tanh(x): calculates the hyperbolic tangent of x.
 
 
-### Deduction
+### Deduction|推导
 
 1. Trigonometric functions
 
@@ -74,3 +74,10 @@ $$
 
 
 3. Hyperbolic functions
+
+
+### ps：
+
+no professional, just for fun. 
+
+非专业，只是想捣鼓一下。现在的编译器好像都把exp、log等用硬件指令加速了，不需要数值计算的方法。
