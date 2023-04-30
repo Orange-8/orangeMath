@@ -5,6 +5,10 @@
 extern "C"{
 #endif //__cplusplus
 
+float _asin(float x);
+
+
+
 float _exp(float x);
 float _log(float x);
 
