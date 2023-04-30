@@ -1,11 +1,9 @@
 ## A simple pratice of math library
 
-### precise
+### Accuracy to 6 significant figures(float32)
 
-| float32 | 0.000001 |
-| ------- | -------- |
 
-### todo
+### Function prototype
 
 1. Trigonometric functions
 
@@ -31,7 +29,7 @@
 * [ ] tanh(x): calculates the hyperbolic tangent of x.
 
 
-### deduction
+### Deduction
 
 1. Trigonometric functions
 
